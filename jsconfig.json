@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@Services/*": [
+                "./src/services/*"
+            ],
+            "@Action": [
+                "./src/services/redux/Action"
+            ],
+            "@Api": [
+                "./src/services/redux/Api"
+            ],
+            "@Components/*": [
+                "./src/components/*"
+            ],
+            "@Variables/*": [
+                "./src/variables/*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
